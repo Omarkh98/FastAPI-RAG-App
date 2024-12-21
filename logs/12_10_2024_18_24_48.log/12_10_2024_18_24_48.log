@@ -1,0 +1,13 @@
+[ 2024-12-10 18:24:49,448 ] 133 faiss.loader - INFO - Loading faiss.
+[ 2024-12-10 18:24:49,471 ] 135 faiss.loader - INFO - Successfully loaded faiss.
+[ 2024-12-10 18:24:49,496 ] 210 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+[ 2024-12-10 18:24:49,496 ] 218 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+[ 2024-12-10 18:24:54,383 ] 45 root - INFO - Data Loaded From Vector DB Successfully (FAISS and JSONL)!
+[ 2024-12-10 18:24:54,431 ] 622 passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/Users/omariko/Documents/GitHub/rag-server/myenv/lib/python3.12/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+[ 2024-12-10 18:25:04,203 ] 39 root - INFO - Documents Retrieved Successfully!
+[ 2024-12-10 18:25:07,403 ] 58 root - INFO - Output Generated Successfully!

@@ -1,0 +1,5 @@
+[ 2024-12-09 16:20:44,960 ] 210 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+[ 2024-12-09 16:20:44,960 ] 218 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+[ 2024-12-09 16:20:51,172 ] 45 root - INFO - Data Loaded From Vector DB Successfully (FAISS and JSONL)!
+[ 2024-12-09 16:21:01,390 ] 41 root - INFO - Documents Retrieved Successfully!
+[ 2024-12-09 16:21:08,416 ] 60 root - INFO - Output Generated Successfully!

@@ -1,0 +1,6 @@
+# JSON
+/knowledgebase/quality_html-pdf.jsonl
+
+# FAISS
+vector_index_fau.faiss
+vector_index.faiss
